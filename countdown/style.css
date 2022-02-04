@@ -1,0 +1,24 @@
+h2 {
+    font-size: 5rem;
+}
+
+.coming-soon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+}
+
+.day,
+.hours,
+.minutes,
+.seconds {
+    flex: auto;
+    font-size: 3rem;
+}
